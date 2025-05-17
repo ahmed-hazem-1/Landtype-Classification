@@ -93,7 +93,7 @@ class_names = {
 def load_model_file():
     """Load the RGB model"""
     try:
-        model_path = "model_v2.h5"
+        model_path = "landtype-classification/model_v2.h5"
         
         if not os.path.exists(model_path):
             st.error(f"Model file not found: {model_path}")
